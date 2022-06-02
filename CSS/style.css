@@ -97,6 +97,48 @@
   padding-right: 0px;
 }
 
+/* NOSOTROS */
+
+.seccion-nosotros{
+  background: url(/IMG/img-nosotros.png) no-repeat left;
+  background-size: 55%;
+  background-color: rgb(235, 40, 40);
+  overflow: hidden;
+  padding: 100px 0;
+  min-height: 700px;
+}
+
+.contenedor-nosotros{
+width: 55%;
+float: right;
+background: radial-gradient(#ffffff, #d6d6d6);
+padding: 150px;
+}
+
+.contenedor-nosotros h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.info-nosotros{
+  font-size: 50px;
+  color: #3a3a3a;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+
+}
+
+.servicios-nosotros{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 20px;
+
+}
+
+/* FOOTER */
 .footer {
   background-color: #3a3a3a;
   position: relative;
@@ -133,7 +175,7 @@
 }
 
 .container{
-  position: absolute;
+  position: relative;
   padding: 30px;
 
 }
@@ -239,6 +281,29 @@ font-size: 2em;
     max-width: 620px;
   }
 
+/* NOSOTROS  */
+
+
+.seccion-nosotros{
+
+  background-size: 100%;
+ 
+}
+.contenedor-nosotros{
+  margin: 20px;
+width: 50%;
+padding:40px;
+}
+
+.servicios-nosotros{
+  font-size: 18px;
+}
+
+.texto-nosotros{
+  font-size: 16px;
+}
+
+/* FOOTER */
 
   .footer {
     position: relative;
@@ -315,6 +380,29 @@ font-size: 2em;
     margin-top: 20px;
   }
 
+  /* NOSOTROS  */
+
+
+.seccion-nosotros{
+
+  background-size: 0%;
+ 
+}
+.contenedor-nosotros{
+display: flex;
+flex-direction: column;
+width: 100%;
+padding:40px;
+margin: 0;
+}
+
+.servicios-nosotros{
+  font-size: 18px;
+}
+
+.texto-nosotros{
+  font-size: 16px;
+}
 
 /* Galeria Responsiva */
 
