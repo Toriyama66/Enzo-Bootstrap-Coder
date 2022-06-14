@@ -1,0 +1,31 @@
+@import "../utilities/variable";
+@import "../layout/index";
+@import "../layout/footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: $secundario;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+.navbar {
+  display: flex;
+  background-color: $grisOscuro;
+
+  li a {
+    position: relative;
+    margin-left: 30px;
+    color: $grisOscuro;
+  }
+}
