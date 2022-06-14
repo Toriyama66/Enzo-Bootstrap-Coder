@@ -1,0 +1,437 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main {
+  position: relative;
+  min-height: 100vh;
+  background: radial-gradient(#ffffff, #d6d6d6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.logo {
+  max-width: 90px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar li a {
+  position: relative;
+  color: #272727;
+  margin-left: 30px;
+}
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 50px;
+}
+
+.contenedor .text {
+  width: 100%;
+  max-width: 700px;
+}
+
+.contenedor .text h2 {
+  color: #3a3a3a;
+  font-size: 3em;
+  font-weight: 200;
+  line-height: 1.4em;
+}
+
+.contenedor .text h2 span {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.contenedor .text h3 {
+  color: #686868;
+  font-weight: bolder;
+}
+
+.contenedor .text p {
+  color: #5f5f5f;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 40px 0;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 20px 50px;
+  background: #fff;
+  color: #3a3a3a;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 40px;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  letter-spacing: 2px;
+}
+
+.caja-img {
+  position: relative;
+}
+
+.caja-img img {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 0px;
+}
+
+/* CATALOGO */
+.card:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+/* NOSOTROS */
+.nosotros {
+  padding-left: 0;
+  height: 800px;
+}
+
+.info-nosotros {
+  color: #3a3a3a;
+  margin-top: 40px;
+}
+
+.foto-nosotros {
+  padding-left: 0;
+}
+
+.titulo-nosotros {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.texto-nosotros {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #3a3a3a;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 30px 100px;
+  color: white;
+}
+
+.rrss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rrss li a {
+  color: #ffffff;
+  font-size: 2em;
+  margin-right: 20px;
+  display: inline-block;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  text-decoration: none;
+}
+
+.rrss li a:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.info-footer {
+  font-size: medium;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+.container {
+  position: relative;
+  padding: 30px;
+}
+
+/* FORMULARIO */
+.h2 {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #1d1d1d;
+  padding-top: 50px;
+}
+
+.caja-formulario {
+  background-image: -webkit-gradient(linear, left top, right top, from(#303030), to(#525252));
+  background-image: linear-gradient(to right, #303030 0%, #525252 100%);
+  height: 150px;
+}
+
+.container-formulario {
+  background-image: linear-gradient(120deg, #fc9379 0%, #e69696 100%);
+  height: 600px;
+}
+
+.form-control {
+  color: #1d1d1d;
+}
+
+.form-group {
+  padding: 30px 20px 0 30px;
+}
+
+.btn-primary {
+  border: none;
+  margin: 20px;
+}
+
+.btn-primary:hover {
+  color: #272727;
+  background-color: #96e6a1;
+}
+
+/* GALERIA */
+.imagen {
+  width: 100%;
+}
+
+.imagen:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.imagen img {
+  width: 100%;
+}
+
+.galeria {
+    width: 100%;
+    margin: 100px 20px 100px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns:repeat(3,1 fr);
+    gap:0.5rem;
+}
+
+/* Responsiva 768 */
+@media (max-width: 768px) {
+  .main {
+    padding: 40px;
+  }
+  .logo {
+    max-width: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 120px 0 40px;
+  }
+  .contenedor .text {
+    max-width: 100%;
+    line-height: 1em;
+  }
+  .contenedor .text h2 {
+    font-size: 3em;
+    line-height: 1.5em;
+  }
+  .contenedor .text h3 {
+    font-size: 2em;
+  }
+  .caja-img {
+    margin-top: 40px;
+  }
+  .caja-img img {
+    width: 100%;
+    max-width: 620px;
+  }
+  /* NOSOTROS    */
+  .nosotros {
+    padding-right: 0;
+    margin: 0;
+  }
+  .texto-nosotros {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .foto-nosotros {
+    padding: 0;
+  }
+  /* FOOTER */
+  .footer {
+    position: relative;
+    padding: 10;
+    background-color: #3a3a3a;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .rrss li a {
+    font-size: 2em;
+    margin-right: 20px;
+    display: inline-block;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  .rrss li a:hover {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  .info-footer {
+    font-size: medium;
+    padding-top: 10px;
+    display: block;
+  }
+  /* Galeria Responsiva */
+  .galeria {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns : repeat(2, 1fr);
+  }
+  .h2 {
+    font-size: 1.5em;
+    padding: 30px;
+  }
+}
+
+/* Responsiva 320 */
+@media (max-width: 320px) {
+    .main {
+    padding: 20px;
+    }
+    .contenedor .text h2 {
+    font-size: 2em;
+    }
+    .contenedor .text h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+    }
+    .logo {
+    max-width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    }
+    .btn {
+    padding: 15px 30px;
+    }
+    .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    }
+    .rrss {
+    margin-top: 20px;
+    }
+  /* NOSOTROS    320 */
+    .nosotros {
+    padding: 0;
+    height: 800px;
+    margin: 0;
+    }
+    .info-nosotros {
+    color: #3a3a3a;
+    margin-top: 30px;
+    }
+    .foto-nosotros {
+    width: 320px;
+    padding: 0;
+    }
+    .titulo-nosotros {
+    font-size: 40px;
+    font-weight: bolder;
+    }
+    .texto-nosotros {
+    margin-top: 20px;
+    font-size: 16px;
+    }
+  /* Galeria Responsiva */
+    .galeria {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+/*# sourceMappingURL=style.css.map */
