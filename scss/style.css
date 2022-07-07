@@ -313,14 +313,14 @@ body {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  /* -ms-grid-columns: (1fr)[3]; */
+  -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
 }
 
 @media (max-width: 768px) {
   .galeria {
-    /* -ms-grid-columns: (1fr)[2]; */
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
   .caja-galeria {
@@ -333,11 +333,14 @@ body {
     padding: 20px;
     text-align: center;
   }
+  .foto-nos {
+    display: none;
+  }
 }
 
 @media (max-width: 320px) {
   .galeria {
-    /* -ms-grid-columns: (1fr)[1]; */
+    -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
 }
@@ -345,6 +348,7 @@ body {
 .caja-formulario {
   background-color: #001D3D;
   height: 120px;
+  border: 0;
 }
 
 .caja-formulario p {
@@ -362,6 +366,10 @@ body {
 .container-formulario {
   height: 600px;
   background-color: #219EBC;
+}
+
+.container-formulario p {
+  color: #fff;
 }
 
 .form-control {
@@ -388,5 +396,18 @@ body {
 .btn-reset:hover {
   color: #fff;
   background-color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .caja-formulario {
+    background-color: #001D3D;
+    height: 120px;
+  }
+  .caja-formulario p {
+    color: #fff;
+    font-size: 1em;
+    padding: 20px;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */
